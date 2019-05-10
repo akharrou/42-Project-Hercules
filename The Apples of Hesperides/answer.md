@@ -6,18 +6,18 @@
 1.  Create public and private keys using `ssh-keygen` on **local-host**
 
 	```
-	akharrou@local-host$ ssh-keygen
+	$> ssh-keygen
 	```
 
 
 2.  Copy the public key to **remote-host** using `ssh-copy-id`
 
 	```
-	akharrou@local-host$ ssh-copy-id -i ~/.ssh/id_rsa.pub <remote-host>
+	$> ssh-copy-id -i ~/.ssh/id_rsa.pub <remote-host>
 	```
 
 3.  Login to remote-host without entering the password
 
 	```
-	akharrou@local-host$ ssh <remote-host>
+	$> ssh <remote-host>
 	```

@@ -1,6 +1,6 @@
 ## Hercules — The Apples of Hesperides
 
-#### How to login to a VM without the needing a password ?
+#### How to login to a VM without the need of the password ?
 
 
 1.  Create public and private keys using `ssh-keygen` on **local-host**

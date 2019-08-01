@@ -1,0 +1,4 @@
+RUN WITH THE FOLLOWING COMMANDS:
+
+./asm champions/akharrou.s && ./asm champions/zork.s
+./corewar champions/akharrou.cor champions/zork.cor
